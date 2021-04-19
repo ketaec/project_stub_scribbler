@@ -1,5 +1,6 @@
 .header-title {
     float: left;
+    padding: 3px;
 }
 
 #heading{
@@ -25,4 +26,66 @@
     color: white;
     margin: 5px;
     cursor: pointer;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+.close-icon {
+    float: right;
+    cursor: pointer;
+}
+
+.modalHeader {
+    color: gray;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+h3 {
+    margin:0 !important;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    background-color: rgb(232 232 232);
+    border: none;
+}
+
+.label-text {
+    margin: 10px 0px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.modal-btn {
+    border-radius: 0px !important;
+    margin: 15px 0px 0px;
 }
