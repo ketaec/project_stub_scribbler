@@ -1,0 +1,28 @@
+.header-title {
+    float: left;
+}
+
+#heading{
+    font-family: 'Montez', cursive;
+    color: blue;
+    font-size: 24px;
+    margin: 0;
+}
+
+#sub-heading{
+    font-family: "Ubuntu Mono", monospace;
+    margin: 0;
+}
+
+.header-btn{
+    float: right;
+}
+
+.header-btn button {
+    background-color: blue;
+    border: none;
+    padding: 5px 15px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
