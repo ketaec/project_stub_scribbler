@@ -1,3 +1,104 @@
 body {
     background-color: #ffeedd;
 }
+
+.postcards {
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* height: 80%; */
+    width: 100%;
+}
+
+.post {
+    position: relative;
+    width: 35%;
+    display: table-cell;
+    margin: 10px;
+    border-radius: 20px
+}
+
+.post:hover {
+    box-shadow: 0px 10px 10px 0px #ccc;
+}
+
+.post-username {
+    width: 14%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 20px;
+    background: white;
+}
+
+.post-content-div {
+    width: 86%;
+    display: table-cell;
+    text-align: left;
+    color: black;
+    border-radius: 0px 20px 20px 0px;
+    padding: 0 20px;
+    /* overflow: scroll; */
+    background-color: rgb(230 230 230);
+}
+
+.post-content-header{
+    margin-top: 10px;
+    min-height: 30px;
+}
+
+.post-content-title {
+    color: #585858;
+    float: left;
+    max-width: 95%;
+}
+
+.post-content-icon {
+    float: right;
+    margin: 4px 0;
+}
+
+.fa-trash,
+.fa-ellipsis-h {
+  color: #838383;
+  float: right;
+  cursor: pointer;
+}
+
+.post-content {
+    line-height: 1.2em;
+    height: 3.6em;
+    overflow: hidden;
+}
+
+#delete-post-modal {
+    padding-top: 20%;
+}
+
+#delete-post-modal-content {
+    padding: 10px;
+    border-radius: inherit !important;
+    width: 400px;
+}
+
+#confirmDelete{
+    width: 100px !important;
+    border-radius: inherit;
+    float: left;
+} 
+
+#cancelDelete {
+    width: 100px !important;
+    border-radius: inherit;
+    float: right;
+}
+
+.button-wrapper{
+    height: 30px;
+}
