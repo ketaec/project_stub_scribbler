@@ -89,3 +89,9 @@ input {
     border-radius: 0px !important;
     margin: 15px 0px 0px;
 }
+
+.signup-msg {
+    font-weight: 600;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
