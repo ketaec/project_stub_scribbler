@@ -72,7 +72,7 @@ form {
     flex-direction: column;
 }
 
-input {
+input, textarea {
     padding: 10px;
     background-color: rgb(232 232 232);
     border: none;
@@ -88,10 +88,26 @@ input {
 .modal-btn {
     border-radius: 0px !important;
     margin: 15px 0px 0px;
+    min-width: 200px;
 }
 
 .signup-msg {
     font-weight: 600;
     text-align: center;
     margin: 15px 0 0 0;
+}
+
+.post-buttons-div {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.post-button {
+    background: #cfb53b;
+    padding: 8px 5px;
+    color: black;
+    border: 1px solid white;
+    width: 120px;
+    margin-right: 10px;
 }
