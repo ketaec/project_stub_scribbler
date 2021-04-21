@@ -23,5 +23,12 @@ function deletePost() {
 
 // to redirect to post.html
 function showFullPost(e) {
+    var post = e.closest(".post");
+    var author = post.querySelector(".post-username").innerText;
+    var postTitle = post.querySelector(".post-content-title").innerText;
+    var postContent = post.querySelector(".post-content").innerText;
+    sessionStorage.setItem("author", author);
+    sessionStorage.setItem("postTitle", postTitle);
+    sessionStorage.setItem("postContent", postContent);
     window.location.href = "../html/post.html";
 }
