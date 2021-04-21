@@ -77,11 +77,20 @@
         <div>
             <button class="post-btn" id="edit-btn" onclick="editPost()">Edit <i class="fa fa-edit"></i></button>
             <button class="post-btn" id="save-btn" onclick="savePost()">Save <i class="fa fa-save"></i></button>
-
             <div class="selected-post-author" id="post-author"> Username</div>
         </div>
-        <div class="selected-post-content" id="post-content">
+        <div class="margin-top-bottom" id="post-content">
             Post content
+        </div>
+        <div>
+            <button class="post-btn" id="like-btn" onclick="likePost()"><i class="fa fa-thumbs-up"></i> Like</button>
+            <p id="like-btn-text">Be the first one to like this!</p>
+        </div>
+        <div>
+            <textarea name="comments" id="comment-box" placeholder="Leave a comment..." ></textarea>
+            <button class="post-btn" onclick="addComment()">Comment</button>
+            <p class="margin-top-bottom">All Comments</p>
+            <div id="post-comments"></div>
         </div>
 
     </div>

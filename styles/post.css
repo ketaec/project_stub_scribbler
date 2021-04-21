@@ -2,6 +2,7 @@
     position: absolute;
     top: 10%;
     margin: 0 5%;
+    width: 90%;
 }
 
 .selected-post-title{
@@ -13,7 +14,11 @@
 .selected-post-author {
     font-size: 17px;
     font-family: 'Ubuntu Mono';
-    margin: 15px 0px;
+    margin: 10px 0px;
+}
+
+.margin-top-bottom {
+    margin: 10px 0px;
 }
 
 .post-btn {
@@ -21,6 +26,7 @@
     background: #d40808;
     border: none;
     padding: 5px 15px;
+    box-shadow: 0px 7px 7px 0px #ccc;
 }
 
 #edit-btn{
@@ -33,6 +39,31 @@
     display: none;
 }
 
+#like-btn-text {
+    color: gray;
+    font-family: monospace;
+    font-size: 13px;
+    margin: 5px 0;
+}
+
 [contenteditable=true] {
     outline: 1px solid #ff0047;
+}
+
+#comment-box {
+    width: 50%;
+    background: white;
+    border: 1px solid black;
+    display: block;
+    margin: 10px 0;
+}
+
+#post-comments {
+    width: 50%;
+    /* border: 5px solid lightgray; */
+}
+
+#post-comment {
+    border: 5px solid lightgray;
+    padding: 5px;
 }
