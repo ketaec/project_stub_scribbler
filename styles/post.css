@@ -1,0 +1,38 @@
+.selected-post{
+    position: absolute;
+    top: 10%;
+    margin: 0 5%;
+}
+
+.selected-post-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.selected-post-author {
+    font-size: 17px;
+    font-family: 'Ubuntu Mono';
+    margin: 15px 0px;
+}
+
+.post-btn {
+    color: white;
+    background: #d40808;
+    border: none;
+    padding: 5px 15px;
+}
+
+#edit-btn{
+    float: right;
+    display: inherit;
+}
+
+#save-btn {
+    float: right;
+    display: none;
+}
+
+[contenteditable=true] {
+    outline: 1px solid #ff0047;
+}
