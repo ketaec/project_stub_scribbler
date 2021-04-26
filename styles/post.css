@@ -23,7 +23,7 @@
 
 .post-btn {
     color: white;
-    background: #d40808;
+    background: #e2084e;
     border: none;
     padding: 5px 15px;
     box-shadow: 0px 7px 7px 0px #ccc;
@@ -47,7 +47,7 @@
 }
 
 [contenteditable=true] {
-    outline: 1px solid #ff0047;
+    outline: 1px solid #e2084e;
 }
 
 #comment-box {
