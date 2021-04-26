@@ -16,7 +16,7 @@ body {
 .post {
     position: relative;
     width: 35%;
-    display: table-cell;
+    display: flex;
     margin: 10px;
     border-radius: 20px
 }
@@ -27,8 +27,8 @@ body {
 
 .post-username {
     width: 14%;
-    display: table-cell;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
     text-align: center;
     font-weight: bold;
     color: #6d6d6d;
